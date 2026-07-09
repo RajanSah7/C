@@ -28,10 +28,10 @@ printf("\nDisplaying the record of Patients:\n");
 for(i=0;i<n;i++)
 {
 printf(" %d patients details:\n",i+1);
-printf("Name:%s\n",h[i].name);
-printf("Age:%d\n",h[i].age);
-printf(" Name of Disease:%s\n",h[i].disease);
-printf("R00m Number:%d\n",h[i].r_num);
+printf("Name:%s\t",h[i].name);
+printf("Age:%d\t",h[i].age);
+printf("Name of Disease:%s\t",h[i].disease);
+printf("Room Number:%d\n",h[i].r_num);
 }
 return 0;
 }
