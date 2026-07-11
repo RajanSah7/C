@@ -13,8 +13,6 @@ int main()
         num=num/10;
         i++;
     }
-    printf("%d",sum);
-    printf("%d",n_1);
     printf("Decimal number of %d is %d",n_1,sum);
     printf("\n");
     return 0;
