@@ -61,7 +61,7 @@ void highest_branch_sale(int row, int bra_sal[row])
             p=i;
         }
     }
-    printf("\nBranch %d has the highest weekly sales.",p+1);
+    printf("\nBranch %d has the highest sales.",p+1);
 }
 //the day with the highest total sales.
 void highest_day_sale(int col,int d_sale[col])
