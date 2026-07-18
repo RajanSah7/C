@@ -11,7 +11,7 @@ Perform the following:
 6.Find the day with the highest total sales.
 */
 #include<stdio.h>
-#include<string.h>
+
 #include"monthsalehelp.c"
 int main()
 {
